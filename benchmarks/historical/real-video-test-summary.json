@@ -1,0 +1,181 @@
+{
+  "source": {
+    "duration_seconds": 10.967,
+    "width": 1280,
+    "height": 720,
+    "id": "597e9b793e1d46e38e4c47415383c807",
+    "name": "CIX ModelHub ByteTrack palace.mp4",
+    "kind": "local_person_negative",
+    "size_bytes": 5909113,
+    "imported_at": "2026-11-23T06:40:36+00:00",
+    "note": "本地缓存的 CIX AI ModelHub ByteTrack palace.mp4；故宫游客实拍片段，作为人员检测测试及烟火负样例；来源许可须按原数据集说明核验。"
+  },
+  "source_sha256": "4bbe5bf11fe8967b28a900fd2add4949aba89b62076eaa03d0c55cdf7dd41397",
+  "session_id": "dd8bcc2d6c234a9096084f4032a28178",
+  "status": "completed",
+  "frames_processed": 6,
+  "interval_seconds": 2,
+  "cycle_seconds": 0.851,
+  "inference_seconds": {
+    "fire_smoke": 0.704,
+    "person": 0.698
+  },
+  "model_info": {
+    "fire_smoke": {
+      "source": "damoyolo_cpu",
+      "model_sha256": "678df3f256b7e3ef4eae9fa83158599f1fb3c2b40133bf367fa5183965b2af5f",
+      "device": "cpu"
+    },
+    "person": {
+      "source": "damoyolo_person_cpu",
+      "model_sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616",
+      "device": "cpu"
+    }
+  },
+  "events": [
+    {
+      "id": "723e3da941fc4c529c6ceb582ee9c098",
+      "label": "person",
+      "status": "ended",
+      "stage": "persistent",
+      "first_seen": "2026-11-23T06:43:05+00:00",
+      "first_position_seconds": 0.0,
+      "samples": 6,
+      "last_seen": "2026-11-23T06:43:15+00:00",
+      "last_position_seconds": 10.0,
+      "count": 8,
+      "confidence": 0.858203,
+      "level": "notice",
+      "ended_at": "2026-11-23T06:43:16+00:00",
+      "end_reason": "监测结束，后续画面未检测",
+      "image_url": "/api/monitor/assets/dd8bcc2d6c234a9096084f4032a28178/events/723e3da941fc4c529c6ceb582ee9c098.jpg",
+      "image_size": [
+        960,
+        540
+      ],
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.832438,
+          "box": [
+            710.76,
+            176.32,
+            873.84,
+            537.63
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.763163,
+          "box": [
+            511.85,
+            216.55,
+            575.21,
+            394.02
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.762323,
+          "box": [
+            122.74,
+            192.54,
+            216.01,
+            434.53
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.738735,
+          "box": [
+            568.05,
+            200.08,
+            631.03,
+            396.73
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.710689,
+          "box": [
+            275.71,
+            161.3,
+            344.55,
+            372.69
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.709914,
+          "box": [
+            26.26,
+            223.03,
+            78.93,
+            355.89
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.70911,
+          "box": [
+            417.16,
+            235.07,
+            468.04,
+            408.62
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.691164,
+          "box": [
+            352.51,
+            181.21,
+            424.33,
+            362.19
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.673506,
+          "box": [
+            348.62,
+            246.9,
+            395.48,
+            385.81
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.603944,
+          "box": [
+            882.33,
+            197.28,
+            959.81,
+            300.04
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.589371,
+          "box": [
+            893.49,
+            271.07,
+            959.98,
+            537.8
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.5755,
+          "box": [
+            461.87,
+            184.36,
+            512.03,
+            390.61
+          ]
+        }
+      ]
+    }
+  ],
+  "manual_scope": "A 10.967-second local palace crowd clip, six samples at 0,2,4,6,8,10 seconds. People present; no visible fire/smoke in reviewed contact sheets. No per-frame person-count ground truth. Fire/smoke negative check is visual sample inspection only."
+}

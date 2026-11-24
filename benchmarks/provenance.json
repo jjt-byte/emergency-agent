@@ -1,0 +1,44 @@
+[
+  {
+    "source": "<ORIGINAL_PROJECT>/data/person_detection_validation.json",
+    "source_sha256": "4bc4f9f9b6a38cca545152c342510513082d98c19b8f772c24d73f834a5a2d16",
+    "export": "benchmarks/historical/person_detection_validation.json",
+    "transformation": "absolute path identifiers redacted; measurements unchanged"
+  },
+  {
+    "source": "<ORIGINAL_PROJECT>/data/fire_smoke_validation.json",
+    "source_sha256": "8eac603c651f9b9ea49e170913808e12dcc142cc60049dc373f5a52dc33644d0",
+    "export": "benchmarks/historical/fire_smoke_validation.json",
+    "transformation": "absolute path identifiers redacted; measurements unchanged"
+  },
+  {
+    "source": "<ORIGINAL_PROJECT>/data/person_npu_comparison.json",
+    "source_sha256": "5cc5497694b0834ecd34895302780843f4b57da22ac6d00a07387248c6353fca",
+    "export": "benchmarks/historical/person_npu_comparison.json",
+    "transformation": "absolute path identifiers redacted; measurements unchanged"
+  },
+  {
+    "source": "<ORIGINAL_PROJECT>/data/monitor/photo-suite-smoke-test.json",
+    "source_sha256": "75e6c401c7099e37c0b6dbf67fcf7d0fc4082bb3ed201744d145bd4be132e056",
+    "export": "benchmarks/historical/photo-suite-smoke-test.json",
+    "transformation": "absolute path identifiers redacted; measurements unchanged"
+  },
+  {
+    "source": "<ORIGINAL_PROJECT>/data/monitor/sessions/dd8bcc2d6c234a9096084f4032a28178/test-summary.json",
+    "source_sha256": "e7425e73ad4928359914210aea5b5781af0834bf1600883270a87a6102694d5d",
+    "export": "benchmarks/historical/real-video-test-summary.json",
+    "transformation": "absolute path identifiers redacted; measurements unchanged"
+  },
+  {
+    "source": "<ORIGINAL_MODELS>/qwen2.5-3b/benchmark.json",
+    "source_sha256": "3404e53304e1e5b0c6f021a8e4d2c2919f91b58b2f3db821ad458e1341315dc5",
+    "export": "benchmarks/historical/llama-benchmark.json",
+    "transformation": "absolute model filename redacted; numeric values unchanged"
+  },
+  {
+    "source": "<ORIGINAL_PROJECT>/data/agent_acceptance_final.json",
+    "source_sha256": "fae98574a30d9634b831a7884e8a82d091d9e107e0010871f346101208a2a5b5",
+    "export": "benchmarks/historical/agent-acceptance-summary.json",
+    "transformation": "only timings, round count, status and tool names; user content and image references omitted"
+  }
+]

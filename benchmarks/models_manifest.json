@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "date": "2026-11-24",
+  "scope": "local original assets; distribution terms apply",
+  "files": [
+    {
+      "path": "models/CIX-EULA.md",
+      "bytes": 3291,
+      "sha256": "342bb0ec37134411906453170befa1b8bef01f52130d92bcd5532cf8e906e16f"
+    },
+    {
+      "path": "models/CIX-LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "models/SSD-NOTICE.txt",
+      "bytes": 737,
+      "sha256": "ec03ed1ecc99fb0b8dfc1948b21616b10df2775bf4dd0d91e0e7fafaa29f4360"
+    },
+    {
+      "path": "models/SSD-UPSTREAM-LICENSE.md",
+      "bytes": 11388,
+      "sha256": "ea0747a24bab5837e1b1e5045b1a36ce4176f1ea52c6c2885322af71ca782348"
+    },
+    {
+      "path": "models/fire-smoke/MODELSCOPE-DAMOYOLO.md",
+      "bytes": 2276,
+      "sha256": "e76d3f28090742e08eeb82bb5df83d56152fc3d9553285787b2a7083ca833653"
+    },
+    {
+      "path": "models/fire-smoke/README.md",
+      "bytes": 1176,
+      "sha256": "d6a7ca19ff666715c934b8334c0b420aeb9da24a504d413e838026894f55c5b7"
+    },
+    {
+      "path": "models/fire-smoke/candidates.json",
+      "bytes": 249,
+      "sha256": "743182f2488212e4a63ca5225eede5e2d7346ecfb9d6218b6ecd2c46896e3c20"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/.gitattributes",
+      "bytes": 1414,
+      "sha256": "f3d04437c926962476701a7939d22f21400b4eb0bdd31a15f0012576f2d00932"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/README.md",
+      "bytes": 4619,
+      "sha256": "821c360cceb77e898050ed52acf94e4b76ce1bfa35c84ffa42e2b928e4906b60"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/assets/DAMOYOLO_architecture.jpg",
+      "bytes": 214320,
+      "sha256": "b15667efe9efea23a6486b82a61de6ec1991995623d7dae2e2f9efa47079f19b"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/assets/DAMOYOLO_performance.jpg",
+      "bytes": 56735,
+      "sha256": "16698bd8c5ad77fe4964bc7c5735ea7e0a852be23994bf5056b39385346dbc22"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/assets/demo/test_00000954.jpg",
+      "bytes": 130808,
+      "sha256": "ef2faa936a3f81e32839b5827d182f68e6d7162cf43a393cbbac22dace844d79"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/assets/demo/test_00001095.jpg",
+      "bytes": 82834,
+      "sha256": "f959f1d17db333c43919b1e666ed2b4457ffb5317c30bef66662ce5f2106e2d2"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/assets/demo/test_00003592.jpg",
+      "bytes": 27311,
+      "sha256": "e6176bbf7bb831b9568563b2818794b7e9959a02f2366d95626253a6307db6e1"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/assets/results.png",
+      "bytes": 2132592,
+      "sha256": "de715f69d4b12f196a2e485b0cc28df85d1bb978d4adfd0b7ddc04c3c7125380"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/configuration.json",
+      "bytes": 3468,
+      "sha256": "1e21981b86ae010a8352f106a97e3d5dc8abe1acc772c55e5cb8eee3287f1bec"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/damoyolo.py",
+      "bytes": 1330,
+      "sha256": "71fce75c3d02c4ce52ac04d8ac434d3b376622aae43307ea714606b9243f6cd0"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/damoyolo_tinynasL25_S_smokefire.pt",
+      "bytes": 131084119,
+      "sha256": "678df3f256b7e3ef4eae9fa83158599f1fb3c2b40133bf367fa5183965b2af5f"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/label_map.pkl",
+      "bytes": 93,
+      "sha256": "6ed86e15e955764cca46b02daeb730161d37ab820736cdf6a9c92be273235307"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/source.json",
+      "bytes": 1778,
+      "sha256": "5584f548fa8c38a65ad7c98428ad705f89f4ce5dbdfadde045f54f891979cbc4"
+    },
+    {
+      "path": "models/fire-smoke/damoyolo-smokefire/tinynas_L25_k1kx.txt",
+      "bytes": 1146,
+      "sha256": "d97bd5b8ce3667ed4fcfd91d6ab4d4e966f18621296d337ddfacccbc6a1f50d5"
+    },
+    {
+      "path": "models/person/cix-yolov8s/source.json",
+      "bytes": 619,
+      "sha256": "c8e6293451d65254867d7b2a22d4d6c017fcb5d5f8ad6abe2aaafbb690d050bb"
+    },
+    {
+      "path": "models/person/cix-yolov8s/yolov8s.cix",
+      "bytes": 13424980,
+      "sha256": "35d2dad3ff3b0bfb932c7f9b2cac3fa75a1a91ef47b17d5da17ceb4fb042a5a0"
+    },
+    {
+      "path": "models/person/damoyolo-human/README.md",
+      "bytes": 8674,
+      "sha256": "e172501a2f6014bc31ea4b147f09f1838aef83017e054bd2fef6552f10e7faab"
+    },
+    {
+      "path": "models/person/damoyolo-human/configuration.json",
+      "bytes": 3466,
+      "sha256": "7f27179d273c6d3b5e85eec5832c45aa971cc13e6dc855614cf554f8c862b513"
+    },
+    {
+      "path": "models/person/damoyolo-human/damoyolo.py",
+      "bytes": 1326,
+      "sha256": "12bd0326be250f0470a288fbb6e8a641395b1b0ec7f01272c813fa9cf82051cb"
+    },
+    {
+      "path": "models/person/damoyolo-human/damoyolo_tinynasL25_S_person.pt",
+      "bytes": 130945473,
+      "sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616"
+    },
+    {
+      "path": "models/person/damoyolo-human/label_map.pkl",
+      "bytes": 41,
+      "sha256": "c39c43dad428e96574c3c899e28adaeee1013b31a579dee7b2c6fe84fbf19df6"
+    },
+    {
+      "path": "models/person/damoyolo-human/source.json",
+      "bytes": 954,
+      "sha256": "abda757b3b3630d992bd13c63efb38232f4a5c8903f88baec873661759e5b9a0"
+    },
+    {
+      "path": "models/person/damoyolo-human/tinynas_L25_k1kx.txt",
+      "bytes": 1146,
+      "sha256": "d97bd5b8ce3667ed4fcfd91d6ab4d4e966f18621296d337ddfacccbc6a1f50d5"
+    },
+    {
+      "path": "models/qwen2.5-3b/LICENSE",
+      "bytes": 7388,
+      "sha256": "ef52482bb785733093dc9a2e8edd8e764c77d12d8e9d8f10a80c9b547d32d0f9"
+    },
+    {
+      "path": "models/qwen2.5-3b/README.md",
+      "bytes": 4930,
+      "sha256": "2c74693e6ae36ba878124d465195b4dad0f71035b54ece1c9fd1553cc497ef8c"
+    },
+    {
+      "path": "models/qwen2.5-3b/qwen2.5-3b-instruct-q4_k_m.gguf",
+      "bytes": 1929902432,
+      "sha256": "e81b15458f70331bd27be72c8b18ec9e39d4fcd68d821642588616d1c796d897"
+    },
+    {
+      "path": "models/qwen2.5-3b/source.json",
+      "bytes": 2036,
+      "sha256": "16b8becb92980c64ddec0fc4eefd524376822bb51e071f2e8bcbfbdfcfd99629"
+    },
+    {
+      "path": "models/ssd_300.cix",
+      "bytes": 23738396,
+      "sha256": "f21b16508d45cd74a714aac2cadd38919ba2f97653800b6235956b3f7ae0139c"
+    }
+  ]
+}

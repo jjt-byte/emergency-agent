@@ -1,0 +1,126 @@
+{
+  "created_at": "2026-11-24T08:59:39.751951+00:00",
+  "architecture": "aarch64",
+  "python": "3.11.2",
+  "cpu_affinity": [
+    0,
+    1,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "repeats": 5,
+  "scope": "one image per model; one first inference plus repeated warm calls; no end-to-end video/agent benchmark",
+  "results": [
+    {
+      "kind": "person",
+      "image": "samples/000000252219.jpg",
+      "image_sha256": "1cf48bddb1bcab80d9f4d18514ae438c3e4f57d18e80c4fbea9d5d22396f514a",
+      "model_sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616",
+      "load_seconds": 3.15693135499896,
+      "first_infer_wall_seconds": 0.27212529300595634,
+      "warm_samples_wall_seconds": [
+        0.24294082399865147,
+        0.23849645101290662,
+        0.24425064399838448,
+        0.2496159180009272,
+        0.2423060639994219
+      ],
+      "warm_samples_internal_seconds": [
+        0.243,
+        0.238,
+        0.244,
+        0.25,
+        0.242
+      ],
+      "warm_mean_seconds": 0.24352198020205834,
+      "warm_median_seconds": 0.24294082399865147,
+      "warm_min_seconds": 0.23849645101290662,
+      "warm_max_seconds": 0.2496159180009272,
+      "labels_per_repeat": [
+        [
+          "person",
+          "person",
+          "person"
+        ],
+        [
+          "person",
+          "person",
+          "person"
+        ],
+        [
+          "person",
+          "person",
+          "person"
+        ],
+        [
+          "person",
+          "person",
+          "person"
+        ],
+        [
+          "person",
+          "person",
+          "person"
+        ]
+      ],
+      "threads": 8,
+      "device": "CPU",
+      "whole_worker_seconds": 5.522029750994989
+    },
+    {
+      "kind": "fire_smoke",
+      "image": "samples/fire-smoke/ESE_fire_10.jpg",
+      "image_sha256": "b6a33d1d287af648e451668d4b7f6ae086ca7b4af9512f6f99e74c4925664595",
+      "model_sha256": "678df3f256b7e3ef4eae9fa83158599f1fb3c2b40133bf367fa5183965b2af5f",
+      "load_seconds": 3.190655524012982,
+      "first_infer_wall_seconds": 0.26894800100126304,
+      "warm_samples_wall_seconds": [
+        0.2518617890018504,
+        0.2526679340080591,
+        0.24171272199600935,
+        0.24782997299917042,
+        0.2475726919947192
+      ],
+      "warm_samples_internal_seconds": [
+        0.252,
+        0.252,
+        0.241,
+        0.248,
+        0.247
+      ],
+      "warm_mean_seconds": 0.2483290219999617,
+      "warm_median_seconds": 0.24782997299917042,
+      "warm_min_seconds": 0.24171272199600935,
+      "warm_max_seconds": 0.2526679340080591,
+      "labels_per_repeat": [
+        [
+          "smoke",
+          "fire"
+        ],
+        [
+          "smoke",
+          "fire"
+        ],
+        [
+          "smoke",
+          "fire"
+        ],
+        [
+          "smoke",
+          "fire"
+        ],
+        [
+          "smoke",
+          "fire"
+        ]
+      ],
+      "threads": 8,
+      "device": "CPU",
+      "whole_worker_seconds": 5.574574880010914
+    }
+  ]
+}

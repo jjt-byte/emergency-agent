@@ -1,0 +1,207 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-30T06:29:10+00:00",
+  "fingerprint": {
+    "files": {
+      "<ORIGINAL_PROJECT>/models/fire-smoke/damoyolo-smokefire/damoyolo_tinynasL25_S_smokefire.pt": [
+        131084119,
+        1793327669343417752
+      ],
+      "<ORIGINAL_PROJECT>/models/fire-smoke/damoyolo-smokefire/damoyolo.py": [
+        1330,
+        1793327598681602451
+      ],
+      "<ORIGINAL_PROJECT>/models/fire-smoke/damoyolo-smokefire/label_map.pkl": [
+        93,
+        1793327598685602327
+      ],
+      "<ORIGINAL_PROJECT>/models/fire-smoke/damoyolo-smokefire/tinynas_L25_k1kx.txt": [
+        1146,
+        1793327599117588971
+      ],
+      "<ORIGINAL_PROJECT>/models/fire-smoke/damoyolo-smokefire/source.json": [
+        1778,
+        1793327997445285404
+      ],
+      "<ORIGINAL_PROJECT>/tools/detect_fire_smoke.py": [
+        10263,
+        1793340944812846599
+      ],
+      "<ORIGINAL_PROJECT>/.venv-fire/bin/python": [
+        6618304,
+        1745849508000000000
+      ]
+    },
+    "threshold": 0.6,
+    "max_side": 640
+  },
+  "samples": [
+    {
+      "image": "<ORIGINAL_PROJECT>/samples/fire-smoke/ESE_fire_1.jpg",
+      "case": {
+        "image": "samples/fire-smoke/ESE_fire_1.jpg",
+        "positive": true,
+        "visual_note": "人工查看：夜间电线杆处可见火焰"
+      },
+      "result": {
+        "detections": [],
+        "image_size": [
+          490,
+          367
+        ],
+        "threshold": 0.6,
+        "elapsed_seconds": 3.9,
+        "source": "damoyolo_cpu",
+        "device": "cpu",
+        "capabilities": [
+          "fire",
+          "smoke"
+        ],
+        "model_sha256": "678df3f256b7e3ef4eae9fa83158599f1fb3c2b40133bf367fa5183965b2af5f",
+        "preprocessing": {
+          "rgb_range": [
+            0,
+            255
+          ],
+          "stride": 32,
+          "max_side": 640,
+          "scales": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "image": "<ORIGINAL_PROJECT>/samples/fire-smoke/ESE_fire_10.jpg",
+      "case": {
+        "image": "samples/fire-smoke/ESE_fire_10.jpg",
+        "positive": true,
+        "visual_note": "人工查看：林火，含火焰和浓烟"
+      },
+      "result": {
+        "detections": [
+          {
+            "label": "smoke",
+            "confidence": 0.838402,
+            "box": [
+              0.0,
+              0.21,
+              1024,
+              670.03
+            ]
+          },
+          {
+            "label": "fire",
+            "confidence": 0.692386,
+            "box": [
+              405.51,
+              250.15,
+              719.11,
+              634.12
+            ]
+          }
+        ],
+        "image_size": [
+          1024,
+          677
+        ],
+        "threshold": 0.6,
+        "elapsed_seconds": 4.026,
+        "source": "damoyolo_cpu",
+        "device": "cpu",
+        "capabilities": [
+          "fire",
+          "smoke"
+        ],
+        "model_sha256": "678df3f256b7e3ef4eae9fa83158599f1fb3c2b40133bf367fa5183965b2af5f",
+        "preprocessing": {
+          "rgb_range": [
+            0,
+            255
+          ],
+          "stride": 32,
+          "max_side": 640,
+          "scales": [
+            0.625,
+            0.6248153618906942
+          ]
+        }
+      }
+    },
+    {
+      "image": "<ORIGINAL_PROJECT>/samples/fire-smoke/ESE_fire_100.jpg",
+      "case": {
+        "image": "samples/fire-smoke/ESE_fire_100.jpg",
+        "positive": true,
+        "visual_note": "人工查看：建筑起火，含火焰和黑烟"
+      },
+      "result": {
+        "detections": [],
+        "image_size": [
+          440,
+          293
+        ],
+        "threshold": 0.6,
+        "elapsed_seconds": 3.894,
+        "source": "damoyolo_cpu",
+        "device": "cpu",
+        "capabilities": [
+          "fire",
+          "smoke"
+        ],
+        "model_sha256": "678df3f256b7e3ef4eae9fa83158599f1fb3c2b40133bf367fa5183965b2af5f",
+        "preprocessing": {
+          "rgb_range": [
+            0,
+            255
+          ],
+          "stride": 32,
+          "max_side": 640,
+          "scales": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "image": "<ORIGINAL_PROJECT>/models/fire-smoke/damoyolo-smokefire/assets/demo/test_00001095.jpg",
+      "case": {
+        "image": "models/fire-smoke/damoyolo-smokefire/assets/demo/test_00001095.jpg",
+        "positive": false,
+        "visual_note": "人工查看：普通人物照片，无可见烟火"
+      },
+      "result": {
+        "detections": [],
+        "image_size": [
+          550,
+          498
+        ],
+        "threshold": 0.6,
+        "elapsed_seconds": 4.001,
+        "source": "damoyolo_cpu",
+        "device": "cpu",
+        "capabilities": [
+          "fire",
+          "smoke"
+        ],
+        "model_sha256": "678df3f256b7e3ef4eae9fa83158599f1fb3c2b40133bf367fa5183965b2af5f",
+        "preprocessing": {
+          "rgb_range": [
+            0,
+            255
+          ],
+          "stride": 32,
+          "max_side": 640,
+          "scales": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "scope": "sample_inference_only_not_accuracy_evaluation",
+  "model_sha256": "678df3f256b7e3ef4eae9fa83158599f1fb3c2b40133bf367fa5183965b2af5f"
+}

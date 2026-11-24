@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-11-24T09:12:06.878428+00:00",
+  "source": "original 8080 snapshot; packaging-only changes in a separate directory",
+  "original_source_files_checked": 57,
+  "original_source_differences": [],
+  "original_config_sha256": "ecf2ddf5becc3dbcfd12424bcab84e30283045c28516287f9c3af53bdc9c2237",
+  "original_config_equals_backup": true,
+  "clean_clone_software_tests": {
+    "python_tests": 117,
+    "frontend_groups": 6,
+    "status": "passed",
+    "models_present": false,
+    "runtime_history_present": false,
+    "http_test_mode": "in-memory handler, no listening socket",
+    "note": "NPU activation in unit tests is mocked",
+    "asset_import_checks": 4
+  },
+  "deployment": {
+    "checked_at": "2026-11-24T08:58:11+00:00",
+    "status": "passed",
+    "device": "CPU",
+    "elapsed_seconds": 27.507,
+    "llm_output": "你好。\n\n> EOF by user\n\n\n",
+    "scope": "deployment smoke test only"
+  },
+  "fresh_network_install": "not_run; existing CPU runtime and llama.cpp reused",
+  "current_npu_hardware_run": "not_run; /dev/aipu unavailable; historical measurements separately preserved",
+  "agent_real_integration": {
+    "question": "这张图有多少个人？",
+    "image": "samples/000000252219.jpg",
+    "detected_count": 3,
+    "answer": "这张图显示有3个人。",
+    "elapsed_seconds": 31.154,
+    "status": "completed",
+    "device": "CPU",
+    "scope": "one real integration example"
+  },
+  "demo_video": {
+    "kind": "static photo sequence",
+    "duration_seconds": 32,
+    "status": "generated"
+  },
+  "http_live_browser_test": "not_run; restricted environment cannot bind listening ports",
+  "private_data_published": false,
+  "github_push_performed": false,
+  "syntax_checks": {
+    "python_files": 45,
+    "shell_scripts": 10,
+    "status": "passed"
+  },
+  "pdf": {
+    "pages": 17,
+    "format": "A4",
+    "cjk_fonts_embedded": true,
+    "text_extractable": true
+  }
+}

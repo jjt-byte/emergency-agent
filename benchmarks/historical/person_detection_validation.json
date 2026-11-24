@@ -1,0 +1,478 @@
+{
+  "status": "passed",
+  "settings": {
+    "backend": "damoyolo",
+    "model_dir": "<ORIGINAL_PROJECT>/models/person/damoyolo-human",
+    "python": "<ORIGINAL_PROJECT>/.venv-fire/bin/python",
+    "threshold": 0.5,
+    "max_side": 640,
+    "threads": 8,
+    "validation_file": "<ORIGINAL_PROJECT>/data/person_detection_validation.json"
+  },
+  "fingerprint": {
+    "files": {
+      "<ORIGINAL_PROJECT>/models/person/damoyolo-human/damoyolo_tinynasL25_S_person.pt": [
+        130945473,
+        1793365992266744438
+      ],
+      "<ORIGINAL_PROJECT>/models/person/damoyolo-human/damoyolo.py": [
+        1326,
+        1793365946320141846
+      ],
+      "<ORIGINAL_PROJECT>/models/person/damoyolo-human/configuration.json": [
+        3466,
+        1793365946228144644
+      ],
+      "<ORIGINAL_PROJECT>/models/person/damoyolo-human/label_map.pkl": [
+        41,
+        1793365946492136615
+      ],
+      "<ORIGINAL_PROJECT>/models/person/damoyolo-human/tinynas_L25_k1kx.txt": [
+        1146,
+        1793365946680130897
+      ],
+      "<ORIGINAL_PROJECT>/models/person/damoyolo-human/source.json": [
+        954,
+        1793366134406421441
+      ],
+      "<ORIGINAL_PROJECT>/tools/detect_person.py": [
+        6678,
+        1793366134490418886
+      ],
+      "<ORIGINAL_PROJECT>/tools/detect_fire_smoke.py": [
+        10263,
+        1793340944812846599
+      ],
+      "<ORIGINAL_PROJECT>/.venv-fire/bin/python": [
+        6618304,
+        1745849508000000000
+      ]
+    },
+    "threshold": 0.5,
+    "max_side": 640
+  },
+  "results": [
+    {
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.796294,
+          "box": [
+            612.22,
+            615.69,
+            721.51,
+            908.1
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.783498,
+          "box": [
+            406.27,
+            570.19,
+            466.71,
+            733.62
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.75829,
+          "box": [
+            256.12,
+            664.69,
+            379.25,
+            920
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.751446,
+          "box": [
+            338.51,
+            586.82,
+            404.44,
+            757.75
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.667858,
+          "box": [
+            587.25,
+            582.24,
+            662.17,
+            865.69
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.523814,
+          "box": [
+            269.75,
+            578.33,
+            352.78,
+            740.19
+          ]
+        }
+      ],
+      "image_size": [
+        1380,
+        920
+      ],
+      "threshold": 0.5,
+      "elapsed_seconds": 0.281,
+      "source": "damoyolo_person_cpu",
+      "device": "cpu",
+      "capabilities": [
+        "person"
+      ],
+      "model_path": "<ORIGINAL_PROJECT>/models/person/damoyolo-human/damoyolo_tinynasL25_S_person.pt",
+      "model_sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616",
+      "preprocessing": {
+        "rgb_range": [
+          0,
+          255
+        ],
+        "stride": 32,
+        "max_side": 640,
+        "scales": [
+          0.463768115942029,
+          0.46304347826086956
+        ]
+      },
+      "name": "six_person_user_image",
+      "image": "<ORIGINAL_PROJECT>/data/evidence/20261030-210326-2ef50f.jpg",
+      "count": 6
+    },
+    {
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.856627,
+          "box": [
+            628.5,
+            553.01,
+            863.69,
+            1030.41
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.777758,
+          "box": [
+            239.36,
+            547.37,
+            496.2,
+            1061.93
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.737563,
+          "box": [
+            455.93,
+            579.84,
+            625.25,
+            1039.75
+          ]
+        }
+      ],
+      "image_size": [
+        1080,
+        1111
+      ],
+      "threshold": 0.5,
+      "elapsed_seconds": 0.364,
+      "source": "damoyolo_person_cpu",
+      "device": "cpu",
+      "capabilities": [
+        "person"
+      ],
+      "model_path": "<ORIGINAL_PROJECT>/models/person/damoyolo-human/damoyolo_tinynasL25_S_person.pt",
+      "model_sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616",
+      "preprocessing": {
+        "rgb_range": [
+          0,
+          255
+        ],
+        "stride": 32,
+        "max_side": 640,
+        "scales": [
+          0.575925925925926,
+          0.5760576057605761
+        ]
+      },
+      "name": "previous_three_person_image",
+      "image": "<ORIGINAL_PROJECT>/data/evidence/20261030-210223-a45d77.jpg",
+      "count": 3
+    },
+    {
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.877632,
+          "box": [
+            0.15,
+            105.13,
+            164.13,
+            450.89
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.796804,
+          "box": [
+            364.72,
+            151.08,
+            441.5,
+            315.41
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.73887,
+          "box": [
+            144.22,
+            136.54,
+            254.71,
+            310.16
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.699903,
+          "box": [
+            197.73,
+            125.18,
+            368.42,
+            374.53
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.646054,
+          "box": [
+            423.16,
+            122.55,
+            639.56,
+            376.28
+          ]
+        }
+      ],
+      "image_size": [
+        640,
+        480
+      ],
+      "threshold": 0.5,
+      "elapsed_seconds": 0.269,
+      "source": "damoyolo_person_cpu",
+      "device": "cpu",
+      "capabilities": [
+        "person"
+      ],
+      "model_path": "<ORIGINAL_PROJECT>/models/person/damoyolo-human/damoyolo_tinynasL25_S_person.pt",
+      "model_sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616",
+      "preprocessing": {
+        "rgb_range": [
+          0,
+          255
+        ],
+        "stride": 32,
+        "max_side": 640,
+        "scales": [
+          1.0,
+          1.0
+        ]
+      },
+      "name": "000000006954",
+      "image": "<CACHE>/modelscope/models/iic--cv_tinynas_human-detection_damoyolo/snapshots/master/assets/demo/000000006954.jpg",
+      "count": 5
+    },
+    {
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.819459,
+          "box": [
+            41.05,
+            64.91,
+            163.94,
+            300.2
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.818196,
+          "box": [
+            288.21,
+            142.44,
+            498.05,
+            297.12
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.732063,
+          "box": [
+            158.67,
+            136.47,
+            247.83,
+            265.23
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.719046,
+          "box": [
+            236.81,
+            134.68,
+            316.82,
+            284.47
+          ]
+        }
+      ],
+      "image_size": [
+        500,
+        335
+      ],
+      "threshold": 0.5,
+      "elapsed_seconds": 0.176,
+      "source": "damoyolo_person_cpu",
+      "device": "cpu",
+      "capabilities": [
+        "person"
+      ],
+      "model_path": "<ORIGINAL_PROJECT>/models/person/damoyolo-human/damoyolo_tinynasL25_S_person.pt",
+      "model_sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616",
+      "preprocessing": {
+        "rgb_range": [
+          0,
+          255
+        ],
+        "stride": 32,
+        "max_side": 640,
+        "scales": [
+          1.0,
+          1.0
+        ]
+      },
+      "name": "000000013291",
+      "image": "<CACHE>/modelscope/models/iic--cv_tinynas_human-detection_damoyolo/snapshots/master/assets/demo/000000013291.jpg",
+      "count": 4
+    },
+    {
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.865306,
+          "box": [
+            472.16,
+            314.84,
+            589.83,
+            401.6
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.858495,
+          "box": [
+            269.52,
+            128.11,
+            511.88,
+            372.06
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.829369,
+          "box": [
+            47.14,
+            283.71,
+            160.2,
+            392.91
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.818163,
+          "box": [
+            173.42,
+            291.93,
+            252.91,
+            386.85
+          ]
+        },
+        {
+          "label": "person",
+          "confidence": 0.723293,
+          "box": [
+            313.05,
+            274.16,
+            408.35,
+            394.97
+          ]
+        }
+      ],
+      "image_size": [
+        640,
+        427
+      ],
+      "threshold": 0.5,
+      "elapsed_seconds": 0.238,
+      "source": "damoyolo_person_cpu",
+      "device": "cpu",
+      "capabilities": [
+        "person"
+      ],
+      "model_path": "<ORIGINAL_PROJECT>/models/person/damoyolo-human/damoyolo_tinynasL25_S_person.pt",
+      "model_sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616",
+      "preprocessing": {
+        "rgb_range": [
+          0,
+          255
+        ],
+        "stride": 32,
+        "max_side": 640,
+        "scales": [
+          1.0,
+          1.0
+        ]
+      },
+      "name": "000000081988",
+      "image": "<CACHE>/modelscope/models/iic--cv_tinynas_human-detection_damoyolo/snapshots/master/assets/demo/000000081988.jpg",
+      "count": 5
+    },
+    {
+      "detections": [],
+      "image_size": [
+        640,
+        640
+      ],
+      "threshold": 0.5,
+      "elapsed_seconds": 0.353,
+      "source": "damoyolo_person_cpu",
+      "device": "cpu",
+      "capabilities": [
+        "person"
+      ],
+      "model_path": "<ORIGINAL_PROJECT>/models/person/damoyolo-human/damoyolo_tinynasL25_S_person.pt",
+      "model_sha256": "cc0ff6ebcdeb2ca1137e17a54be6ac6d9133650ebb1a69d83a8a823cfd505616",
+      "preprocessing": {
+        "rgb_range": [
+          0,
+          255
+        ],
+        "stride": 32,
+        "max_side": 640,
+        "scales": [
+          1.0,
+          1.0
+        ]
+      },
+      "name": "blank_negative",
+      "image": "<ORIGINAL_PROJECT>/data/person-validation-blank.png",
+      "count": 0
+    }
+  ],
+  "scope": "sample inference; six-person image and blank checked, not a dataset accuracy estimate"
+}

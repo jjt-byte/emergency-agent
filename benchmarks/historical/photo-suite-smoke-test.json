@@ -1,0 +1,57 @@
+{
+  "exit_code": 0,
+  "status": "completed",
+  "frames_processed": 36,
+  "events": [
+    {
+      "label": "fire",
+      "stage": "persistent",
+      "status": "ended",
+      "samples": 4,
+      "first_position_seconds": 56.0,
+      "last_position_seconds": 62.0
+    },
+    {
+      "label": "smoke",
+      "stage": "persistent",
+      "status": "ended",
+      "samples": 4,
+      "first_position_seconds": 40.0,
+      "last_position_seconds": 46.0
+    },
+    {
+      "label": "person",
+      "stage": "persistent",
+      "status": "ended",
+      "samples": 4,
+      "first_position_seconds": 32.0,
+      "last_position_seconds": 38.0
+    },
+    {
+      "label": "smoke",
+      "stage": "persistent",
+      "status": "ended",
+      "samples": 4,
+      "first_position_seconds": 16.0,
+      "last_position_seconds": 22.0
+    },
+    {
+      "label": "fire",
+      "stage": "persistent",
+      "status": "ended",
+      "samples": 4,
+      "first_position_seconds": 16.0,
+      "last_position_seconds": 22.0
+    },
+    {
+      "label": "person",
+      "stage": "persistent",
+      "status": "ended",
+      "samples": 4,
+      "first_position_seconds": 8.0,
+      "last_position_seconds": 14.0
+    }
+  ],
+  "error": null,
+  "session_dir": "<ORIGINAL_PROJECT>/data/monitor/sessions/photo-suite-smoke-test-5"
+}

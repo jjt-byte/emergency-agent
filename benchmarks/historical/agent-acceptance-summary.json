@@ -1,0 +1,45 @@
+{
+  "scope": "four historical acceptance examples; individual end-to-end latencies, not statistical benchmark",
+  "samples": [
+    {
+      "sample": 1,
+      "elapsed_seconds": 65.052,
+      "status": "completed",
+      "rounds": 4,
+      "tool_names": [
+        "detect_people",
+        "detect_people",
+        "detect_fire_smoke",
+        "search_knowledge"
+      ]
+    },
+    {
+      "sample": 2,
+      "elapsed_seconds": 26.108,
+      "status": "completed",
+      "rounds": 1,
+      "tool_names": []
+    },
+    {
+      "sample": 3,
+      "elapsed_seconds": 63.865,
+      "status": "completed",
+      "rounds": 3,
+      "tool_names": [
+        "detect_people",
+        "detect_fire_smoke",
+        "detect_fire_smoke"
+      ]
+    },
+    {
+      "sample": 4,
+      "elapsed_seconds": 38.316,
+      "status": "completed",
+      "rounds": 3,
+      "tool_names": [
+        "search_knowledge",
+        "search_knowledge"
+      ]
+    }
+  ]
+}

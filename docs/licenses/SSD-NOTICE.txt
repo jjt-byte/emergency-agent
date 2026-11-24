@@ -1,0 +1,13 @@
+SSD decoder attribution
+
+tools/detect_ssd.py contains a NumPy adaptation of the anchor generation,
+bounding-box decoding, and non-maximum suppression logic in NVIDIA's
+nvidia_ssd_processing_utils implementation (Copyright 2018-2019 NVIDIA
+Corporation), distributed under the Apache License, Version 2.0.
+
+The CIX model artifact models/ssd_300.cix is from CIX AI Model Hub 26_Q2:
+models/ComputeVision/Object_Detection/onnx_resnet50_ssd300/ssd_300.cix.
+The associated CIX model and inference code are identified by the hub as
+SPDX-License-Identifier: Apache-2.0. The upstream SSD model is based on the
+NVIDIA DeepLearningExamples SSD implementation; see the source model's
+LICENSE.md in the original model directory for its license terms.

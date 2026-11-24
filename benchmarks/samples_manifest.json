@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "date": "2026-11-24",
+  "scope": "local original assets; distribution terms apply",
+  "files": [
+    {
+      "path": "samples/000000037777.jpg",
+      "bytes": 40833,
+      "sha256": "fe513b68ba46bc146114c469fdff52c288226073f03d73d3300d4fa739937369"
+    },
+    {
+      "path": "samples/000000252219.jpg",
+      "bytes": 143225,
+      "sha256": "1cf48bddb1bcab80d9f4d18514ae438c3e4f57d18e80c4fbea9d5d22396f514a"
+    },
+    {
+      "path": "samples/000000559842.jpg",
+      "bytes": 322185,
+      "sha256": "3508dca3aae80f0658068368fd674fef7871ee48d56263b64be2ca868c769832"
+    },
+    {
+      "path": "samples/fire-smoke/ESE_fire_1.jpg",
+      "bytes": 26087,
+      "sha256": "c0ded0e52ed2b12be7b3d1ff14be4f5725e525f772d01bccec9102a015f5af10"
+    },
+    {
+      "path": "samples/fire-smoke/ESE_fire_10.jpg",
+      "bytes": 186172,
+      "sha256": "b6a33d1d287af648e451668d4b7f6ae086ca7b4af9512f6f99e74c4925664595"
+    },
+    {
+      "path": "samples/fire-smoke/ESE_fire_100.jpg",
+      "bytes": 26759,
+      "sha256": "9c74603ad927fd25ed81be7ecfaadf23e27e1e6e806423df46aa5ce355f0f692"
+    },
+    {
+      "path": "samples/fire-smoke/source.json",
+      "bytes": 757,
+      "sha256": "86c624237b14eb0395dd59faa5952973831a064d30e51f09370a6a6cb1839d1f"
+    },
+    {
+      "path": "samples/fire-smoke/validation_cases.json",
+      "bytes": 611,
+      "sha256": "2f65f85c5c6862dbced012710aef531b3580d5ad8998726cabfd80a585d582b7"
+    },
+    {
+      "path": "samples/monitor-suite/blank.png",
+      "bytes": 2566,
+      "sha256": "0e1e5aa9e75068815a731f1939c9d3a68cddf9892fba72e03ebfc1534aa38765"
+    },
+    {
+      "path": "samples/monitor-suite/both.jpg",
+      "bytes": 186172,
+      "sha256": "b6a33d1d287af648e451668d4b7f6ae086ca7b4af9512f6f99e74c4925664595"
+    },
+    {
+      "path": "samples/monitor-suite/empty.jpg",
+      "bytes": 40833,
+      "sha256": "fe513b68ba46bc146114c469fdff52c288226073f03d73d3300d4fa739937369"
+    },
+    {
+      "path": "samples/monitor-suite/fire.jpg",
+      "bytes": 37256,
+      "sha256": "cbfa928772bb4ffff5d00fae9750c5a9360eada4da984fde1165287a325a7e8a"
+    },
+    {
+      "path": "samples/monitor-suite/people3.jpg",
+      "bytes": 143225,
+      "sha256": "1cf48bddb1bcab80d9f4d18514ae438c3e4f57d18e80c4fbea9d5d22396f514a"
+    },
+    {
+      "path": "samples/monitor-suite/people6.jpg",
+      "bytes": 227556,
+      "sha256": "bbec7aec59197375e3a510e18cc4a99fd824575a12c5506688bf6c14ba308a29"
+    },
+    {
+      "path": "samples/monitor-suite/smoke.jpg",
+      "bytes": 18733,
+      "sha256": "e0660e9ead39d2b7d45fd73ba955beb7f89d7e62383158d8335f83e3d39b91b1"
+    },
+    {
+      "path": "samples/monitor-suite/videos/01-基础轮巡-72秒.mp4",
+      "bytes": 844311,
+      "sha256": "d04fd00942d56a45fa76ea9cedfc8711eb5dbd1418d605e94e5b6ffb98825334"
+    },
+    {
+      "path": "samples/monitor-suite/videos/02-烟火分阶段-70秒.mp4",
+      "bytes": 596154,
+      "sha256": "0880e29e024fb86371f96d3a532a60701c289f34e0144551300cc0ba308ae282"
+    },
+    {
+      "path": "samples/monitor-suite/videos/03-快速切换-60秒.mp4",
+      "bytes": 1507708,
+      "sha256": "08f5f422847b51d09d127b41234c390fd9e79458c42f34c8fa6e1c5e95611f91"
+    },
+    {
+      "path": "samples/monitor-suite/videos/04-人数变化与烟火-80秒.mp4",
+      "bytes": 995519,
+      "sha256": "ad46da31ca99728a529d93623197b2425d7421bd65838acacf6afe3232800735"
+    },
+    {
+      "path": "samples/monitor-suite/videos/05-两分钟反复切换-120秒.mp4",
+      "bytes": 1354030,
+      "sha256": "a6c6e95f9ed9a5d3ad9083da79d3708ea5e010ff179f781478444acfd66c2191"
+    },
+    {
+      "path": "samples/monitor-suite/视频预览.jpg",
+      "bytes": 323053,
+      "sha256": "bdb51578caac2832b0fa09c94e5ac84927fee1de932503849d1be69f501fab5e"
+    },
+    {
+      "path": "samples/validation-blank.png",
+      "bytes": 2566,
+      "sha256": "0e1e5aa9e75068815a731f1939c9d3a68cddf9892fba72e03ebfc1534aa38765"
+    }
+  ]
+}
