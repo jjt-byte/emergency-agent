@@ -1,0 +1,13 @@
+# Isolated CPU runtime for the downloaded DAMO-YOLO model on ARM64 / Python 3.11.
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+Pillow>=10.4,<12
+modelscope==1.40.2
+easydict>=1.13,<2
+addict>=2.4,<3
+timm==0.9.16
+thop>=0.1.1
+networkx>=3.2,<4
+PyYAML>=6,<7
+simplejson>=3.19,<4

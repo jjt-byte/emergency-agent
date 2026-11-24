@@ -1,0 +1,30 @@
+{
+  "model_path": "models/qwen2.5-3b/qwen2.5-3b-instruct-q4_k_m.gguf",
+  "llama_cli": "vendor/llama.cpp/build-cpu/bin/llama-completion",
+  "vision_python": ".venv/bin/python",
+  "runtime_python": ".venv/bin/python",
+  "vision_model": "models/ssd_300.cix",
+  "cpu_affinity": "0,1,6-11",
+  "threads": 8,
+  "agent": {"enabled": true, "max_rounds": 3},
+  "fire_threshold": 0.75,
+  "smoke_threshold": 0.7,
+  "fire_smoke": {
+    "enabled": true,
+    "model_dir": "models/fire-smoke/damoyolo-smokefire",
+    "python": ".venv/bin/python",
+    "threshold": 0.6,
+    "max_side": 640,
+    "threads": 8,
+    "validation_file": "data/fire_smoke_validation.json"
+  },
+  "person_detection": {
+    "backend": "damoyolo",
+    "model_dir": "models/person/damoyolo-human",
+    "python": ".venv/bin/python",
+    "threshold": 0.5,
+    "max_side": 640,
+    "threads": 8,
+    "validation_file": "data/person_detection_validation.json"
+  }
+}
